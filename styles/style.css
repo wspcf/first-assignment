@@ -11,12 +11,22 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
-.hb_text {
+.hb_content {
+  text-align: end;
+  margin-right: 250px;
 }
-.hb_text h1 {
+/* Header Title */
+.hb_content h1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
 }
-.hb_text p {
+/* Header Description */
+.hb_content p {
 }
 /* Code For Header Area End */
 /* Code For Main Area Start */
