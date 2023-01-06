@@ -152,22 +152,36 @@
 }
 .ew_content h1 {
   font-size: 30px;
+  text-decoration: underline wavy rgb(243, 243, 243) 20px;
+  margin: 0 auto;
 }
-.ew_content img {
+.ew_my_image {
   width: 420px;
   height: 400px;
   border-radius: 100%;
   object-fit: cover;
   margin: 30px 0;
+  border: 10px dashed #ddd;
+  box-shadow: 0 6px 16px rgb(0 0 0 / 15%);
+  background: linear-gradient(to right, rgb(0 171 100), rgb(255 255 255 / 77%));
+  padding: 10px;
+}
+.ew_globe_icon {
+  width: 300px;
 }
 .ew_content h3 {
   font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .ew_content h4 {
   font-size: 40px;
   color: #b9b9b9;
   font-weight: 200;
   font-style: italic;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
 }
 /* Code For Footer Area Start */
 footer {
@@ -227,6 +241,7 @@ footer {
   color: #fff;
   border-radius: 5px;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 .fie_submit {
   padding: 20px;
