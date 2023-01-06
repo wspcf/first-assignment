@@ -54,8 +54,6 @@
   justify-content: space-between;
   align-items: center;
 }
-.mf_item {
-}
 .mf_item img {
   margin-right: 200px;
 }
@@ -71,13 +69,56 @@
   line-height: 26px;
   margin-bottom: 20px;
 }
-.mf_text ul {
+.mf_text_list {
   list-style: none;
 }
-.mf_text li {
+.mf_text .fa-check {
+  color: #61e4ad;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.mf_text_list li {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+/* Section For My Plans */
+.my_plans {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.mp_title {
+  margin-bottom: 80px;
+}
+.mp_title h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.mp_content {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.mp_content_item {
+}
+.mp_content_item img {
+}
+.mp_content_item h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.mp_content_item p {
+  font-size: 25px;
+}
+/* Section For Call Now */
+.call_now {
+  margin-top: 150px;
 }
 /* Code For Footer Area Start */
 footer {
