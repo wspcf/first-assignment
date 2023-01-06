@@ -110,10 +110,6 @@
   justify-content: space-between;
   text-align: center;
 }
-.mp_content_item {
-}
-.mp_content_item img {
-}
 .mp_content_item h2 {
   font-size: 28px;
   margin-bottom: 20px;
@@ -220,16 +216,10 @@ footer {
 .fis_icon li {
   margin-right: 20px;
 }
-.fis_icon img {
-}
-.footer_item_end {
-}
 .footer_item_end h1 {
   color: #fff;
   font-size: 30px;
   margin-bottom: 20px;
-}
-.fie_form label {
 }
 .fie_email {
   height: 50px;
