@@ -141,10 +141,38 @@
   font-weight: 700;
   font-size: 38px;
 }
-.cn_banner button {
+/* Section For Extra Work */
+.extra_work {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+.ew_content {
+  text-align: center;
+}
+.ew_content h1 {
+  font-size: 30px;
+}
+.ew_content img {
+  width: 420px;
+  height: 400px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin: 30px 0;
+}
+.ew_content h3 {
+  font-size: 25px;
+}
+.ew_content h4 {
+  font-size: 40px;
+  color: #b9b9b9;
+  font-weight: 200;
+  font-style: italic;
 }
 /* Code For Footer Area Start */
 footer {
   margin-top: 150px;
+  height: 400px;
+  background-color: #151414;
 }
 /* Code For Footer Area End */
