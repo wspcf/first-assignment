@@ -174,29 +174,65 @@ footer {
   margin-top: 150px;
   height: 400px;
   background-color: #151414;
+  padding-top: 150px;
+}
+.footer_content {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 .footer_item_start {
 }
 .footer_item_start h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
 }
 .footer_item_start p {
+  color: #fff;
+  margin-bottom: 20px;
 }
 .footer_item_start span {
+  color: #fff;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 .fis_icon {
+  display: flex;
 }
 .fis_icon li {
+  margin-right: 20px;
 }
 .fis_icon img {
 }
 .footer_item_end {
 }
 .footer_item_end h1 {
-}
-.fie_form {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 .fie_form label {
 }
-.fie_form input {
+.fie_email {
+  height: 50px;
+  background: none;
+  border: 1px solid #fff;
+  width: 250px;
+  display: block;
+  padding-left: 20px;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.fie_submit {
+  padding: 20px;
+  background: #005fac;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
 }
 /* Code For Footer Area End */
