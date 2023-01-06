@@ -152,7 +152,7 @@
 }
 .ew_content h1 {
   font-size: 30px;
-  text-decoration: underline wavy rgb(243, 243, 243) 20px;
+  text-decoration: underline wavy #eee 20px;
   margin: 0 auto;
 }
 .ew_my_image {
